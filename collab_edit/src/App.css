@@ -82,3 +82,52 @@
   color:darkkhaki;
 
 }
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside{
+  background: darkslategrey;
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;  
+}
+
+.innerAside{
+  flex:1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.name{
+  margin-top: 10px;
+}
+.editorWrap{
+  background: white;
+}
+
+.leaveBtn{
+  margin-top: 20px;
+  background: yellow;
+
+}
+
+.leaveBtn:hover{
+  background: darkkhaki;
+}
